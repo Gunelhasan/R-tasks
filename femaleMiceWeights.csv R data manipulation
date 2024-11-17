@@ -1,0 +1,16 @@
+femaleMiceWeights.csv R data manipulation
+
+file_path <- "C:\\Users\\lenovo\\Downloads\\femaleMiceWeights.csv"
+ female_mice_data <- read.csv(file_path)  (loading the data)
+
+Getting Started Exercises #2
+The [ and ] symbols can be used to extract specific rows and specific columns of the table.
+What is the entry in the 12th row and second column?
+
+female_mice_data[12, 2]
+
+Getting Started Exercises #4
+The length() function returns the number of elements in a vector.
+How many mice are included in our dataset?
+
+nrow(female_mice_data)
